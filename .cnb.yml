@@ -49,7 +49,7 @@ $:
             - name: 同步到GitHub
               image: tencentcom/git-sync 
               settings:
-                target_url: https://github.com/xiaomizhoubaobei/ai-chatbot-starter.git
+                target_url: https://github.com/xiaomizhoubaobei/Deep-Research.git
                 auth_type: https
                 username: ${GIT_USERNAME} 
                 password: ${GIT_ACCESS_TOKEN}
